@@ -1,6 +1,8 @@
 import './style.css'
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
+
+
 const scene=new THREE.Scene();
 const camera=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.1,1000);
 const renderer=new THREE.WebGLRenderer({
@@ -23,14 +25,14 @@ scene.add(pointLight,ambientLight ,Lighthelper);
 
 const controls=new OrbitControls(camera, renderer.domElement)
 
-const texture = new THREE.TextureLoader().load('/87.png')
+const texture = new THREE.TextureLoader().load('80.png')
 const jeff = new THREE.Mesh(
   new THREE.BoxGeometry(10,10,10),
   new THREE.MeshBasicMaterial({map:texture})
 )
 jeff.position.set(14,7,-14)
 scene.add(jeff);
-const moontexture = new THREE.TextureLoader().load('/moon.jpg')
+const moontexture = new THREE.TextureLoader().load('moon.jpg')
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(15,24,24),
   new THREE.MeshBasicMaterial({map:moontexture})
