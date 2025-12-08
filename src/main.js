@@ -25,7 +25,7 @@ scene.add(pointLight,ambientLight ,Lighthelper);
 
 const controls=new OrbitControls(camera, renderer.domElement)
 
-const texture = new THREE.TextureLoader().load('80.png')
+const texture = new THREE.TextureLoader().load('87.png')
 const jeff = new THREE.Mesh(
   new THREE.BoxGeometry(10,10,10),
   new THREE.MeshBasicMaterial({map:texture})
