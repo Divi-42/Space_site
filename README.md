@@ -4,6 +4,8 @@ A visually stunning **3D space-themed website** built using **Three.js**, inspir
 
 Live Demo: [https://divi-42.github.io/Space_site/](https://divi-42.github.io/Space_site/)
 
+Also Another 3D website with Spline :) [link here lol](https://my.spline.design/untitled-4yNCnchMNQ4ApENyQL3hbxJW/)
+
 ## Features
 
 - Immersive 3D space environment using **Three.js**
